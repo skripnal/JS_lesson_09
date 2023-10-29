@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="">Прізвище</label><br>
+        <input type="text" name="" id="inputLastName"><br>
+        <label for="">Ім'я</label><br>
+        <input type="text" name="" id="inputFirstName"><br>
+        <label for="">Вік</label><br>
+        <input type="text" name="" id="inputAge" onkeyup="validateAge()"><br>
+        <label for="">Місце проживання</label><br>
+        <input type="text" name="" id="inputAddress"><br>
+        <input style="margin-top:10px;" type="button" value="GET" onclick="sendDataByGetMethod()">
+        <input style="margin-top:10px;" type="button" value="POST" onclick="sendDataByPostMethod()">
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
